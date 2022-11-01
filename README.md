@@ -17,7 +17,7 @@ packages used
 
 
 
-https://booking-app-node.herokuapp.com/api/
+https://booking-app-node.herokuapp.com
 
 
 
