@@ -15,14 +15,14 @@ import Hotel from "../models/Hotel.js";
 import { createError } from "../utils/error.js";
 
 //create
-router.post("/", verifyAdmin,createHotel);
+router.post("/", createHotel);
 
 //update
 
-router.put("/:id",verifyAdmin, updateHotel);
+router.put("/:id", updateHotel);
 
 //delete
-router.delete("/:id",verifyAdmin, deleteHotel);
+router.delete("/:id", deleteHotel);
 
 //get
 router.get("/find/:id", getHotel);
